@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#barraFixa{position: relative;}
+#areaLogin{display:none;}
+#pesquisa{width:80%;margin-top:-10px;margin-left:-30px;}
+#botaoMeuCarrinho{display:none;}
+
+#containerPrincipal{
+	padding:50px;
+}
+#tituloIdentificacao{
+	width:97.5%;
+	background-color:white;
+	padding:15px;
+	border-radius:10px;
+	margin-bottom: 40px;
+	box-shadow: 0px 5px 8px rgba(78,91,147, .6);
+	border: 1px solid rgba(204, 204, 204, 1);
+}
+#login{
+	display:block;
+	float:left;
+	width: 45%;
+	height:300px;
+	background: #FFF;
+	box-shadow: 0px 5px 8px rgba(78,91,147, .6);
+	border: 1px solid rgba(204, 204, 204, 1);
+	border-radius:10px;
+	line-height:300%;
+	padding:20px;
+}
+#cadastro{
+	display:block;
+	float:right;
+	width: 45%;
+	height:300px;
+	background: #FFF;
+	box-shadow: 0px 5px 8px rgba(78,91,147, .6);
+	border: 1px solid rgba(204, 204, 204, 1);
+	border-radius:10px;
+	line-height:300%;
+	padding:20px;
+}
+
+.btn{
+	margin-top: 20px;
+}
+h3, p#cadastroEmail{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+	background-image: url("../_imagens/_backgrounds/bg-root.jpg");
+}
+div#login{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+   	height: 250px;
+   	margin-left: -150px;
+   	margin-top: -180px;
+	background-image: url("../_imagens/_backgrounds/bg-login.png");
+	border-radius: 8px;
+	padding: 15px;
+	padding-bottom: 30px;
+	font-family: Arial;
+	box-shadow: 0px 0px 10px #AAA;
+}
+h2{
+	text-align:center;
+	color:#222;
+	text-shadow: 0px 0px 3px #999;
+	margin-bottom: 40px;
+	text-align:center;
+}
+p{
+	text-align:center;
+}
+p#admin{
+	font-size:14px;
+	color:#F00;
+	text-transform:uppercase;
+	font-weight:bold;
+}
